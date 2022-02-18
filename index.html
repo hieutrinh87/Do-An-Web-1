@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<!-- Đang xem đến phút 29 -->
 <head>
     <title>1888023 - Ice-cream</title>
     <!-- Required meta tags -->
@@ -10,47 +10,52 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/1888023.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa+One" type="text/css">
 </head>
 
 <body>
     <header class="container">
-        <div>
-            <nav class="navbar navbar-expand-sm navbar-light ">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="Ice-cream">
-                </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                    <a href=""><img src="/images/twitter.png" alt=""></a>
-                    <a href=""><img src="/images/facebook.png" alt=""></a>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-sm navbar-light px-0">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Ice-cream">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" id="frm-search">
+                    <div class="input-group input-group-sm">
+                        <input class="form-control" type="text" id="searchword">
+                        <div class="input-group-append">
+                            <button class="btn " type="submit" id="btn-search"></button>
+                        </div>
+                    </div>
+                </form>
+                <a href=""><img src="/images/twitter.png" alt=""></a>
+                <a href=""><img src="/images/facebook.png" alt=""></a>
+            </div>
+        </nav>
+
+        
     </header>
 
     <!-- Banner -->
@@ -112,7 +117,7 @@
 
                 <div class="col-md-9">
                     <h3>About Us</h3>
-                <!-- </div>
+                    <!-- </div>
                 <div class="col"> -->
                     <img src="images/icon-about.png" alt="">
                     <div>
@@ -123,10 +128,7 @@
                     <div>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         <a href="#">Read more</a>
-
-
                     </div>
-
                 </div>
                 <div class="col-md-3">
                     <form action="post">

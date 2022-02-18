@@ -1,0 +1,46 @@
+body{
+    font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7c7c7c;
+}
+
+/*Header */
+#menu li a {
+    font-family: 'Changa One', cursive;
+    color: #333333
+}
+#menu li a:hover{
+    color: #2FA0D5;
+    background: none;
+}
+#menu li.active a {
+    color: #2FA0D5;
+    background: none;
+}
+
+#frm-search{
+    display: block;
+    width: 169px;
+    height:32px;
+
+    border: 1px solid #D5d5d5;
+    padding: 4px 11px 6px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin: 0 10px;
+}
+
+#searchword {
+    border: none;
+    background: white;
+    box-shadow: none;
+    padding: 0;
+}
+#btn-search{
+    border: none;
+    width: 18px;
+    background: url(../images/search_button.png) 0 0 no-repeat;
+}
+
+/*Header */
