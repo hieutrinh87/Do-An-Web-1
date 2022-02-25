@@ -29,6 +29,14 @@ body{
     box-sizing: border-box;
     border-radius: 14px;
     margin: 0 10px;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    #frm-search{
+        width: auto;
+        margin: 0px;
+    }
 }
 
 #searchword {
@@ -125,7 +133,7 @@ body{
     left: 5px;    
 }
 
-#dots li.active span, #dots li:hover span{
+#dots li.current span, #dots li:hover span{
     box-shadow: 0;
     background: #73c926;
 }
@@ -134,5 +142,31 @@ body{
     width: 9px;
     height: 9px;
 }
+
+#logo {
+    position: relative;
+}
+@media screen and (min-width: 576px){
+    #logo:after{
+        position: absolute;
+        content: "";
+        background: url(../images/logo_bg.png) 0 0 no-repeat;
+        width: 188px;
+        height: 133px;
+        bottom: -141px;
+        left: -20px;
+    }
+    
+    #frm-search:after {
+        position: absolute;
+        content: "";
+        background: url(../images/search_bg.png) 0 0 no-repeat;
+        width: 230px;
+        height: 44px;
+        left: 10px;
+        bottom: -70px;
+    }
+}
+
 
 /*Header */
