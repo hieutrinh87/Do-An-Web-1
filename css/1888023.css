@@ -167,6 +167,44 @@ body{
         bottom: -70px;
     }
 }
-
+@media screen and (min-width: 768px) {
+    #menu li {
+        margin-left: 25px;
+        padding: 0px;
+    }
+}
 
 /*Header */
+
+/*main*/
+
+h4 {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    color: #333333;
+    font-size: 26px;
+    margin: 10px 0;
+}
+.readmore{
+    text-decoration: underline;
+    color: #2FA0D5;
+}
+
+/* about */
+.about {
+    background: #FA97C2;
+}
+
+h3 {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 10px 0;
+}
+.about div > img {
+    float: left;
+    margin: 20px;
+}
+#frm-signup{
+    
+}
